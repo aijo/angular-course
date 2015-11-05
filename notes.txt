@@ -1,0 +1,13 @@
+AngularJS keys features
+-Two way data binding
+-Structure frontends code
+-Routing support
+-Template
+-Validation
+-New html tags(directive - insert new tags eg.widget)
+-Testable, Injectable code
+-Google community
+
+candidate lib = hammer2, react
+git clone https://github.com/schalermthai/angular-course
+
