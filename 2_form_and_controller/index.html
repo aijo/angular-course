@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="myApp">
 <head>
 	<title>Controllers</title>
 	<link href="../libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 	</div>
 </nav>
 
-<div class="container main-content">
+<div class="container main-content" ng-controller="formController">
 
 	<form>
 		<div class="form-group">
@@ -45,7 +45,7 @@
 	</form>
 
   <pre>
-
+  	{{ formData }}
   </pre>
 </div>
 
