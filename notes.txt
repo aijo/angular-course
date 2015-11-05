@@ -11,3 +11,31 @@ AngularJS keys features
 candidate lib = hammer2, react
 git clone https://github.com/schalermthai/angular-course
 
+==================
+
+Angular Modules
+-Maintain sw start with structure
+-Angular จัดการ code ออกเป็นส่วนที่สามารถ reuse ร่วมกันได้เรียก module
+-module เปนถังของ component ที่สัมพันธ์เกื้อหนุนกัน
+-มี buildin modules + 3th party
+
+Module
+-by layer (eg.horizontal of cake)**
+-by features (eg.vertical of cake)
+
+Controller
+-มี controller ก้อมี scope
+-directive มี controller ซ่อนอยู่ได้
+-ใช้ ng-controller ในการสร้าง controller ใหม่
+-dont dom manipulation มันเป็นหน้าที่ของ directive
+-dont filter ข้อมูลการแสดงผล ไปใช้ angular filter
+
+Scope
+-Javascript object ธรรมดา
+-can inster var or func anything
+-scope can inherit (rootScope > childScope can see everything in root)
+beware childScope can be shadow value in parentScope
+
+Javascript can inheritance!!!
+
+
