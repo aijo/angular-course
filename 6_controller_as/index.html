@@ -19,18 +19,18 @@
 				<div class="row">
 					<div class="">
 						<div class="parent"
-						     ng-controller="ParentController">
+						     ng-controller="ParentController as parent">
 							<label>
 								<input type="text"
-								       ng-model="name" />
+								       ng-model="parent.name" />
 							</label>
 							<p>{{name}}</p>
 
 							<div class="child"
-							     ng-controller="ChildController">
+							     ng-controller="ChildController as child">
 								<label>
 									<input type="text"
-									       ng-model="name" />
+									       ng-model="child.name" />
 								</label>
 								<button class="btn"
 								        ng-click="reset()">Reset
