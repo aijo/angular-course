@@ -38,4 +38,8 @@ beware childScope can be shadow value in parentScope
 
 Javascript can inheritance!!!
 
-
+more 3th party :)
+angular ui
+material angular
+angular strap
+ionic
