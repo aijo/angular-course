@@ -3,4 +3,8 @@ angular.module('myApp', [])
 		$scope.formData = {
 			name: 'Jo'
 		}
+
+		$scope.register = function() {
+			alert('Hi' + $scope.formData.name);
+		}
 	})
